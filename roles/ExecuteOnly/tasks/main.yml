@@ -1,3 +1,3 @@
 ---
 - name: execute python script
-  script: folder1/sample2.sh
+  script: sample2.sh
