@@ -1,0 +1,6 @@
+---
+- name: copy .sh file
+  copy: src=folder1/sample.sh dest=/root/sample.sh mode=0777
+  
+- name: execute the script
+  command: /bin/bash /root/sample.sh
